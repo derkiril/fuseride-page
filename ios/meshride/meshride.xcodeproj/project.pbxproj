@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABCDB0A129E3389F00D658D3 /* meshrideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCDB0A029E3389F00D658D3 /* meshrideApp.swift */; };
+		ABCDB0A329E3389F00D658D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCDB0A229E3389F00D658D3 /* ContentView.swift */; };
+		ABCDB0A529E338A200D658D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABCDB0A429E338A200D658D3 /* Assets.xcassets */; };
+		ABCDB0A929E338A200D658D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABCDB0A829E338A200D658D3 /* Preview Assets.xcassets */; };
+		ABCDB0B329E338A200D658D3 /* meshrideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCDB0B229E338A200D658D3 /* meshrideTests.swift */; };
+		ABCDB0BD29E338A200D658D3 /* meshrideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCDB0BC29E338A200D658D3 /* meshrideUITests.swift */; };
+		ABCDB0BF29E338A200D658D3 /* meshrideUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCDB0BE29E338A200D658D3 /* meshrideUITestsLaunchTests.swift */; };
+		ABCDB0CD29E3397700D658D3 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = ABCDB0CC29E3397700D658D3 /* FirebaseAnalytics */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABCDB0AF29E338A200D658D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABCDB09529E3389F00D658D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABCDB09C29E3389F00D658D3;
+			remoteInfo = meshride;
+		};
+		ABCDB0B929E338A200D658D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABCDB09529E3389F00D658D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABCDB09C29E3389F00D658D3;
+			remoteInfo = meshride;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABCDB09D29E3389F00D658D3 /* meshride.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = meshride.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABCDB0A029E3389F00D658D3 /* meshrideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meshrideApp.swift; sourceTree = "<group>"; };
+		ABCDB0A229E3389F00D658D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ABCDB0A429E338A200D658D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABCDB0A629E338A200D658D3 /* meshride.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = meshride.entitlements; sourceTree = "<group>"; };
+		ABCDB0A829E338A200D658D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ABCDB0AE29E338A200D658D3 /* meshrideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meshrideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABCDB0B229E338A200D658D3 /* meshrideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meshrideTests.swift; sourceTree = "<group>"; };
+		ABCDB0B829E338A200D658D3 /* meshrideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = meshrideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABCDB0BC29E338A200D658D3 /* meshrideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meshrideUITests.swift; sourceTree = "<group>"; };
+		ABCDB0BE29E338A200D658D3 /* meshrideUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meshrideUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABCDB09A29E3389F00D658D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCDB0CD29E3397700D658D3 /* FirebaseAnalytics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCDB0AB29E338A200D658D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCDB0B529E338A200D658D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABCDB09429E3389F00D658D3 = {
+			isa = PBXGroup;
+			children = (
+				ABCDB09F29E3389F00D658D3 /* meshride */,
+				ABCDB0B129E338A200D658D3 /* meshrideTests */,
+				ABCDB0BB29E338A200D658D3 /* meshrideUITests */,
+				ABCDB09E29E3389F00D658D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABCDB09E29E3389F00D658D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABCDB09D29E3389F00D658D3 /* meshride.app */,
+				ABCDB0AE29E338A200D658D3 /* meshrideTests.xctest */,
+				ABCDB0B829E338A200D658D3 /* meshrideUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABCDB09F29E3389F00D658D3 /* meshride */ = {
+			isa = PBXGroup;
+			children = (
+				ABCDB0A029E3389F00D658D3 /* meshrideApp.swift */,
+				ABCDB0A229E3389F00D658D3 /* ContentView.swift */,
+				ABCDB0A429E338A200D658D3 /* Assets.xcassets */,
+				ABCDB0A629E338A200D658D3 /* meshride.entitlements */,
+				ABCDB0A729E338A200D658D3 /* Preview Content */,
+			);
+			path = meshride;
+			sourceTree = "<group>";
+		};
+		ABCDB0A729E338A200D658D3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ABCDB0A829E338A200D658D3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ABCDB0B129E338A200D658D3 /* meshrideTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABCDB0B229E338A200D658D3 /* meshrideTests.swift */,
+			);
+			path = meshrideTests;
+			sourceTree = "<group>";
+		};
+		ABCDB0BB29E338A200D658D3 /* meshrideUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABCDB0BC29E338A200D658D3 /* meshrideUITests.swift */,
+				ABCDB0BE29E338A200D658D3 /* meshrideUITestsLaunchTests.swift */,
+			);
+			path = meshrideUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABCDB09C29E3389F00D658D3 /* meshride */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABCDB0C229E338A200D658D3 /* Build configuration list for PBXNativeTarget "meshride" */;
+			buildPhases = (
+				ABCDB09929E3389F00D658D3 /* Sources */,
+				ABCDB09A29E3389F00D658D3 /* Frameworks */,
+				ABCDB09B29E3389F00D658D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = meshride;
+			packageProductDependencies = (
+				ABCDB0CC29E3397700D658D3 /* FirebaseAnalytics */,
+			);
+			productName = meshride;
+			productReference = ABCDB09D29E3389F00D658D3 /* meshride.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABCDB0AD29E338A200D658D3 /* meshrideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABCDB0C529E338A200D658D3 /* Build configuration list for PBXNativeTarget "meshrideTests" */;
+			buildPhases = (
+				ABCDB0AA29E338A200D658D3 /* Sources */,
+				ABCDB0AB29E338A200D658D3 /* Frameworks */,
+				ABCDB0AC29E338A200D658D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABCDB0B029E338A200D658D3 /* PBXTargetDependency */,
+			);
+			name = meshrideTests;
+			productName = meshrideTests;
+			productReference = ABCDB0AE29E338A200D658D3 /* meshrideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABCDB0B729E338A200D658D3 /* meshrideUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABCDB0C829E338A200D658D3 /* Build configuration list for PBXNativeTarget "meshrideUITests" */;
+			buildPhases = (
+				ABCDB0B429E338A200D658D3 /* Sources */,
+				ABCDB0B529E338A200D658D3 /* Frameworks */,
+				ABCDB0B629E338A200D658D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABCDB0BA29E338A200D658D3 /* PBXTargetDependency */,
+			);
+			name = meshrideUITests;
+			productName = meshrideUITests;
+			productReference = ABCDB0B829E338A200D658D3 /* meshrideUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABCDB09529E3389F00D658D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					ABCDB09C29E3389F00D658D3 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					ABCDB0AD29E338A200D658D3 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = ABCDB09C29E3389F00D658D3;
+					};
+					ABCDB0B729E338A200D658D3 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = ABCDB09C29E3389F00D658D3;
+					};
+				};
+			};
+			buildConfigurationList = ABCDB09829E3389F00D658D3 /* Build configuration list for PBXProject "meshride" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABCDB09429E3389F00D658D3;
+			packageReferences = (
+				ABCDB0CB29E3397700D658D3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = ABCDB09E29E3389F00D658D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABCDB09C29E3389F00D658D3 /* meshride */,
+				ABCDB0AD29E338A200D658D3 /* meshrideTests */,
+				ABCDB0B729E338A200D658D3 /* meshrideUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABCDB09B29E3389F00D658D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCDB0A929E338A200D658D3 /* Preview Assets.xcassets in Resources */,
+				ABCDB0A529E338A200D658D3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCDB0AC29E338A200D658D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCDB0B629E338A200D658D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABCDB09929E3389F00D658D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCDB0A329E3389F00D658D3 /* ContentView.swift in Sources */,
+				ABCDB0A129E3389F00D658D3 /* meshrideApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCDB0AA29E338A200D658D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCDB0B329E338A200D658D3 /* meshrideTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABCDB0B429E338A200D658D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABCDB0BF29E338A200D658D3 /* meshrideUITestsLaunchTests.swift in Sources */,
+				ABCDB0BD29E338A200D658D3 /* meshrideUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABCDB0B029E338A200D658D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABCDB09C29E3389F00D658D3 /* meshride */;
+			targetProxy = ABCDB0AF29E338A200D658D3 /* PBXContainerItemProxy */;
+		};
+		ABCDB0BA29E338A200D658D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABCDB09C29E3389F00D658D3 /* meshride */;
+			targetProxy = ABCDB0B929E338A200D658D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ABCDB0C029E338A200D658D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABCDB0C129E338A200D658D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		ABCDB0C329E338A200D658D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = meshride/meshride.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"meshride/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kap.meshride;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABCDB0C429E338A200D658D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = meshride/meshride.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"meshride/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kap.meshride;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ABCDB0C629E338A200D658D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kap.meshrideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/meshride.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/meshride";
+			};
+			name = Debug;
+		};
+		ABCDB0C729E338A200D658D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kap.meshrideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/meshride.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/meshride";
+			};
+			name = Release;
+		};
+		ABCDB0C929E338A200D658D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kap.meshrideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = meshride;
+			};
+			name = Debug;
+		};
+		ABCDB0CA29E338A200D658D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kap.meshrideUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = meshride;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABCDB09829E3389F00D658D3 /* Build configuration list for PBXProject "meshride" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABCDB0C029E338A200D658D3 /* Debug */,
+				ABCDB0C129E338A200D658D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABCDB0C229E338A200D658D3 /* Build configuration list for PBXNativeTarget "meshride" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABCDB0C329E338A200D658D3 /* Debug */,
+				ABCDB0C429E338A200D658D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABCDB0C529E338A200D658D3 /* Build configuration list for PBXNativeTarget "meshrideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABCDB0C629E338A200D658D3 /* Debug */,
+				ABCDB0C729E338A200D658D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABCDB0C829E338A200D658D3 /* Build configuration list for PBXNativeTarget "meshrideUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABCDB0C929E338A200D658D3 /* Debug */,
+				ABCDB0CA29E338A200D658D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ABCDB0CB29E3397700D658D3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ABCDB0CC29E3397700D658D3 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ABCDB0CB29E3397700D658D3 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = ABCDB09529E3389F00D658D3 /* Project object */;
+}
