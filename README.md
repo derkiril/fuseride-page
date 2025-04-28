@@ -1,2 +1,2 @@
-# meshride
-Next level of economic and environmentally friendly way of transportation
+# fuseride
+Next level public transportation
